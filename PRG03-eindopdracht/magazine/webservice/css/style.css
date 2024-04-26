@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
+
+
+header {
+    margin: 0;
+    padding: 1rem;
+    height: 100px;
+    box-shadow: 3px 3px 5px 6px black;
+    text-align: center;
+    background: #332E3C;
+}
+
+body {
+    background-image:url("../img/dark_background.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5rem;
+    color: #000000;
+    margin: 1rem;
+}
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #000000;
+    margin: 1rem;
+}
+
+.guides {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 1;
+    margin-top: 3rem;
+}
+
+.guide {
+    text-align: center;
+    width: 20vw;
+    border: 2px #332E3C solid;
+    border-radius: 2%;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #434d6a;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px 6px rgba(37, 37, 37, 0.72);
+}
+
+.guide h3{
+    text-decoration: underline;
+}
+
+img {
+    width: 95%;
+    height: 60%;
+    object-fit: cover;
+    margin-left: 7px;
+}
+
+button {
+    margin-top: 12px;
+    padding: 6px;
+    background-color: white;
+    border: 2px solid #4A5981;
+    border-radius: 1px;
+    transition-duration: 0.4s;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+button:hover {
+    color: white;
+    margin-top: 12px;
+    padding: 7px;
+    background-color: #4A5981;
+    border: 2px solid white;
+    border-radius: 1px;
+}
+
+.details-popup {
+    text-align: center;
+    width: 300vw;
+    height: 100%;
+    border: 2px #332E3C solid;
+    border-radius: 2%;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    box-shadow: 3px 3px 5px 6px black;
+    margin-top: 3.75rem;
+}
+
+.details-popup h3{
+    text-decoration: underline;
+}
+
+.favorite {
+    background-color: #383d8d;
+}
+
+p {
+    font-family: "Bebas Neue", sans-serif;
+
+}
+q
